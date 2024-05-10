@@ -1,0 +1,77 @@
+{% extends "base.njk" %}
+
+{% block titulo %}Habitaciones | Listado{% endblock %}
+
+{% block contenido %}
+
+    <h1>Ficha habitación {{habitacion.numero}}</h1>
+    {% if habitacion.imagen %}
+        <img class="habitacion-imagen" src="/public/uploads/habitaciones/{{ habitacion.imagen }}" alt="Imagen de la habitacion {{habitacion.numero}}">
+    {% endif %}
+    <p>Tipo {{habitacion.tipo}} - <strong>{{habitacion.precio}} eur/noche</strong>
+    </p>
+    <p>{{habitacion.descripcion}}</p>
+    <!-- Si el usuario está autenticado, mostrar opciones para borrar la habitación y añadir incidencias -->
+    {% if session and session.usuario%}
+        <form style="display:inline" action="/habitaciones/{{ habitacion.id }}" method="post">
+            <input type="hidden" name="_method" value="delete"/>
+            <button type="submit" class="btn btn-danger">Borrar habitacion</button>
+        </form>
+
+        <h2>Incidencias</h2>
+        <h3>Nueva incidencia</h3>
+        {% if errores.general %}
+            <p class="alert alert-danger">{{ errores.general }}</p>
+        {% endif %}
+        <form action="/habitaciones/{{ habitacion.id }}/incidencias" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="descripcion">Descripción:</label>
+                <textarea class="form-control" id="descripcion" name="descripcion" rows="3"></textarea>
+                {% if errores.descripcion %}
+                    <p class="alert alert-danger">{{ errores.descripcion }}</p>
+                {% endif %}
+            </div>
+            <div class="form-group">
+                <label for="imagen">Imagen:</label>
+                <input type="file" id="imagen" name="imagen" class="form-control-file">
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+
+        {%endif%}
+
+        <h3>Listado de incidencias</h3>
+
+        {% if habitacion.incidencias.length > 0 %}
+            {% for incidencia in habitacion.incidencias %}
+                <div class="incidencia">
+                    <p>
+                        <em>({{ incidencia.inicio | date('DD-MM-YYYY') }})</em>
+                    </p>
+                    {% if incidencia.imagen %}
+                        <img class="incidencia-imagen" src="/public/uploads/incidencias/{{ incidencia.imagen }}" alt="Imagen de la incidencia {{incidencia.descripcion}}">
+                    {% endif %}
+                    <p>{{incidencia.descripcion}}</p>
+                    <!-- Si la incidencia no ha finalizado y el usuario está autenticado, mostrar el botón para cerrar la incidencia -->
+                    {% if not incidencia.fin %}
+                        {% if session and session.usuario %}
+                            <form style="display:inline" action="/habitaciones/{{ habitacion.id }}/incidencias/{{ incidencia.id }}" method="post">
+                                <input type="hidden" name="_method" value="put"/>
+                                <button type="submit" class="btn btn-danger">Cerrar</button>
+                            </form>
+                        {% endif %}
+                        <!-- Si la incidencia ha finalizado, mostrar la fecha de cierre -->
+                    {% else %}
+                        <p class="fecha-cierre">Cerrada el {{ incidencia.fin | date('DD-MM-YYYY') }}</p>
+                    {% endif %}
+
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>Sin incidencias</p>
+        {% endif %}
+
+        <h2>Limpiezas</h2>
+        <a class="btn btn-primary" href="/limpiezas/{{ habitacion.id }}">Ver limpiezas</a>
+
+    {% endblock %}
