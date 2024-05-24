@@ -1,0 +1,143 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Recetas",
+    "dateExported": "2024-02-01T04:56:41.845Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c861d771-6559-4d9a-91c9-1c0ea6420391",
+            "colId": "6ac670b4-17d6-4ac1-a0ba-5aa5aa60387f",
+            "containerId": "",
+            "name": "GET  /recetas",
+            "url": "localhost:8080/recetas",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-01T02:01:25.837Z",
+            "modified": "2024-02-01T03:20:51.880Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "188694c7-7425-479b-b16f-74d318c4e415",
+            "colId": "6ac670b4-17d6-4ac1-a0ba-5aa5aa60387f",
+            "containerId": "",
+            "name": "GET /recetas/:id",
+            "url": "localhost:8080/recetas/65bb22dfbd554c704078f944",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-02-01T02:02:05.354Z",
+            "modified": "2024-02-01T04:51:10.772Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f6ca22f1-893c-46f8-9d96-76aa8718afaa",
+            "colId": "6ac670b4-17d6-4ac1-a0ba-5aa5aa60387f",
+            "containerId": "",
+            "name": "POST /recetas",
+            "url": "localhost:8080/recetas",
+            "method": "POST",
+            "sortNum": 140000,
+            "created": "2024-02-01T03:38:43.886Z",
+            "modified": "2024-02-01T04:02:28.570Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"titulo\": \"Tortilla de Patatas\",\n    \"comensales\": 2,\n    \"preparacion\": 10,\n    \"coccion\": 20,\n    \"descripcion\": \"Una sencilla y deliciosa tortilla de patatas.\",\n    \"ingredientes\": [\n        {\n            \"nombre\": \"Patatas\",\n            \"cantidad\": 2,\n            \"unidad\": \"unidades\"\n        },\n        {\n            \"nombre\": \"Huevos\",\n            \"cantidad\": 4,\n            \"unidad\": \"unidades\"\n        },\n        {\n            \"nombre\": \"Aceite de oliva\",\n            \"cantidad\": 50,\n            \"unidad\": \"gr\"\n        },\n        {\n            \"nombre\": \"Sal\",\n            \"cantidad\": 1,\n            \"unidad\": \"cucharadas\"\n        }\n    ]\n}\n",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbiI6ImNyaXN0aWFuIiwiaWF0IjoxNzA2NzYwMDkwLCJleHAiOjE3MDY3NjcyOTB9.5Ae1RUsiLVPRoLDSTbP6vG1pQrndkVaawE3qqTrEBmI"
+            },
+            "tests": []
+        },
+        {
+            "_id": "0462235d-44df-421c-a05f-e4d7c69ceb16",
+            "colId": "6ac670b4-17d6-4ac1-a0ba-5aa5aa60387f",
+            "containerId": "",
+            "name": "POST /auth/login",
+            "url": "localhost:8080/auth/login",
+            "method": "POST",
+            "sortNum": 150000,
+            "created": "2024-02-01T03:46:32.101Z",
+            "modified": "2024-02-01T04:01:30.327Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"usuario\": \"cristian\",\"password\":\"guest1234\"}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "57beaa82-f372-4a12-9f61-5bf8052ca113",
+            "colId": "6ac670b4-17d6-4ac1-a0ba-5aa5aa60387f",
+            "containerId": "",
+            "name": "PUT /recetas/:id",
+            "url": "localhost:8080/recetas/65bb234e2148e0f4b35b0cd3",
+            "method": "PUT",
+            "sortNum": 180000,
+            "created": "2024-02-01T04:06:12.724Z",
+            "modified": "2024-02-01T04:52:22.400Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"titulo\": \"Tortilla de Patatas Especiada\",\n    \"comensales\": 4,\n    \"preparacion\": 15,\n    \"coccion\": 25,\n    \"descripcion\": \"Una deliciosa variante de la tortilla de patatas con un toque de especias.\",\n    \"ingredientes\": [\n        {\n            \"nombre\": \"Patatas\",\n            \"cantidad\": 3,\n            \"unidad\": \"unidades\"\n        },\n        {\n            \"nombre\": \"Huevos\",\n            \"cantidad\": 6,\n            \"unidad\": \"unidades\"\n        },\n        {\n            \"nombre\": \"Aceite de oliva\",\n            \"cantidad\": 60,\n            \"unidad\": \"gr\"\n        },\n        {\n            \"nombre\": \"Sal\",\n            \"cantidad\": 1,\n            \"unidad\": \"cucharadas\"\n        },\n        {\n            \"nombre\": \"Pimentón\",\n            \"cantidad\": 1,\n            \"unidad\": \"cucharadas\"\n        }\n    ]\n}\n",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbiI6ImNyaXN0aWFuIiwiaWF0IjoxNzA2NzYwMDkwLCJleHAiOjE3MDY3NjcyOTB9.5Ae1RUsiLVPRoLDSTbP6vG1pQrndkVaawE3qqTrEBmI"
+            },
+            "tests": []
+        },
+        {
+            "_id": "af7347cd-4996-4470-b7dc-082e6a67f375",
+            "colId": "6ac670b4-17d6-4ac1-a0ba-5aa5aa60387f",
+            "containerId": "",
+            "name": "POST /recetas/elementos/:id",
+            "url": "localhost:8080/recetas/elementos/65bb234e2148e0f4b35b0cd3",
+            "method": "POST",
+            "sortNum": 190000,
+            "created": "2024-02-01T04:10:58.502Z",
+            "modified": "2024-02-01T04:53:25.971Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"nombre\": \"Patatas\",\n    \"cantidad\": 2,\n    \"unidad\": \"unidades\"\n}\n",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbiI6ImNyaXN0aWFuIiwiaWF0IjoxNzA2NzYwMDkwLCJleHAiOjE3MDY3NjcyOTB9.5Ae1RUsiLVPRoLDSTbP6vG1pQrndkVaawE3qqTrEBmI"
+            },
+            "tests": []
+        },
+        {
+            "_id": "5c365e4e-5cb8-49a9-a98b-0605b44ad54c",
+            "colId": "6ac670b4-17d6-4ac1-a0ba-5aa5aa60387f",
+            "containerId": "",
+            "name": "DELETE /recetas/:id",
+            "url": "localhost:8080/recetas/65bb234e2148e0f4b35b0cd3",
+            "method": "DELETE",
+            "sortNum": 200000,
+            "created": "2024-02-01T04:24:31.691Z",
+            "modified": "2024-02-01T04:53:44.380Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbiI6ImNyaXN0aWFuIiwiaWF0IjoxNzA2NzYwMDkwLCJleHAiOjE3MDY3NjcyOTB9.5Ae1RUsiLVPRoLDSTbP6vG1pQrndkVaawE3qqTrEBmI"
+            },
+            "tests": []
+        }
+    ]
+}
