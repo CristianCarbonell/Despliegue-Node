@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="History">
+    <option name="requestHistoryStates">
+      <list>
+        <requestHistoryState>
+          <option name="dateTime" value="1716570504888" />
+          <option name="id" value="91b94958-d5c8-4ad2-9efd-65a70383796b" />
+          <option name="request">
+            <requestState>
+              <option name="auth">
+                <authState>
+                  <option name="type" value="BEARER" />
+                </authState>
+              </option>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;usuario&quot;: &quot;Cristian&quot;,&#10;  &quot;password&quot;: &quot;guest1234&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="9f7c8c88-9b1e-4bbb-b708-59dcee0e4955" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="http://localhost:8080/usuarios" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJvayI6dHJ1ZSwicmVzdWx0YWRvIjp7InVzdWFyaW8iOiJDcmlzdGlhbiIsInBhc3N3b3JkIjoiZ3Vlc3QxMjM0IiwiX2lkIjoiNjY1MGM5ODhhMzc0Yzk3Y2Q5NjNhM2FiIiwiX192IjowfX0=" />
+              <option name="bodyString" value="{&#10;  &quot;ok&quot;: true,&#10;  &quot;resultado&quot;: {&#10;    &quot;usuario&quot;: &quot;Cristian&quot;,&#10;    &quot;password&quot;: &quot;guest1234&quot;,&#10;    &quot;_id&quot;: &quot;6650c988a374c97cd963a3ab&quot;,&#10;    &quot;__v&quot;: 0&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="110" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;6e-n5a0jmIz/AqIfZN5EXAbRDpLNRc&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 24 May 2024 17:08:24 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="91b94958-d5c8-4ad2-9efd-65a70383796b" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;ok&quot;:true,&quot;resultado&quot;:{&quot;usuario&quot;:&quot;Cristian&quot;,&quot;password&quot;:&quot;guest1234&quot;,&quot;_id&quot;:&quot;6650c988a374c97cd963a3ab&quot;,&quot;__v&quot;:0}}" />
+              <option name="size" value="110" />
+              <option name="time" value="63" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1716571732061" />
+          <option name="id" value="96d76c5d-7b8f-4462-9c60-fd032250ec98" />
+          <option name="request">
+            <requestState>
+              <option name="auth">
+                <authState>
+                  <option name="type" value="BEARER" />
+                </authState>
+              </option>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;usuario&quot;: &quot;Cristian&quot;,&#10;  &quot;password&quot;: &quot;guest1234&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="9f7c8c88-9b1e-4bbb-b708-59dcee0e4955" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="http://localhost:8080/login" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJvayI6dHJ1ZSwidG9rZW4iOiJleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKc2IyZHBiaUk2ZXlKZmFXUWlPaUkyTmpVd1l6azRPR0V6TnpSak9UZGpaRGsyTTJFellXSWlMQ0oxYzNWaGNtbHZJam9pUTNKcGMzUnBZVzRpTENKd1lYTnpkMjl5WkNJNkltZDFaWE4wTVRJek5DSXNJbDlmZGlJNk1IMHNJbWxoZENJNk1UY3hOalUzTVRjek1pd2laWGh3SWpveE56RTJOVGM0T1RNeWZRLnJnZFdVQU9qNXQ2cGptZWd1QndlenpEUjhBa1R5TnlqaDYtUHNVc2tKQkEifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;ok&quot;: true,&#10;  &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbiI6eyJfaWQiOiI2NjUwYzk4OGEzNzRjOTdjZDk2M2EzYWIiLCJ1c3VhcmlvIjoiQ3Jpc3RpYW4iLCJwYXNzd29yZCI6Imd1ZXN0MTIzNCIsIl9fdiI6MH0sImlhdCI6MTcxNjU3MTczMiwiZXhwIjoxNzE2NTc4OTMyfQ.rgdWUAOj5t6pjmeguBwezzDR8AkTyNyjh6-PsUskJBA&quot;&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="277" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;115-gwypOp4yGFjCmPsi9DSTPjs1Sak&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 24 May 2024 17:28:52 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="96d76c5d-7b8f-4462-9c60-fd032250ec98" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;ok&quot;:true,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbiI6eyJfaWQiOiI2NjUwYzk4OGEzNzRjOTdjZDk2M2EzYWIiLCJ1c3VhcmlvIjoiQ3Jpc3RpYW4iLCJwYXNzd29yZCI6Imd1ZXN0MTIzNCIsIl9fdiI6MH0sImlhdCI6MTcxNjU3MTczMiwiZXhwIjoxNzE2NTc4OTMyfQ.rgdWUAOj5t6pjmeguBwezzDR8AkTyNyjh6-PsUskJBA&quot;}" />
+              <option name="size" value="277" />
+              <option name="time" value="76" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1716571748370" />
+          <option name="id" value="2e8c2a58-69c4-41c4-9693-7a414c5633f1" />
+          <option name="request">
+            <requestState>
+              <option name="auth">
+                <authState>
+                  <option name="type" value="BEARER" />
+                </authState>
+              </option>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;usuario&quot;: &quot;Cristian&quot;,&#10;  &quot;password&quot;: &quot;guest1234&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="9f7c8c88-9b1e-4bbb-b708-59dcee0e4955" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="http://localhost:8080/login" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJvayI6dHJ1ZSwidG9rZW4iOiJleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKc2IyZHBiaUk2ZXlKZmFXUWlPaUkyTmpVd1l6azRPR0V6TnpSak9UZGpaRGsyTTJFellXSWlMQ0oxYzNWaGNtbHZJam9pUTNKcGMzUnBZVzRpTENKd1lYTnpkMjl5WkNJNkltZDFaWE4wTVRJek5DSXNJbDlmZGlJNk1IMHNJbWxoZENJNk1UY3hOalUzTVRjME9Dd2laWGh3SWpveE56RTJOVGM0T1RRNGZRLkhKMzZQX1NTTTFTWUJqdDVQd19OeklvWEFZdmIxT3ZKd3I3cnlWZlZxencifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;ok&quot;: true,&#10;  &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbiI6eyJfaWQiOiI2NjUwYzk4OGEzNzRjOTdjZDk2M2EzYWIiLCJ1c3VhcmlvIjoiQ3Jpc3RpYW4iLCJwYXNzd29yZCI6Imd1ZXN0MTIzNCIsIl9fdiI6MH0sImlhdCI6MTcxNjU3MTc0OCwiZXhwIjoxNzE2NTc4OTQ4fQ.HJ36P_SSM1SYBjt5Pw_NzIoXAYvb1OvJwr7ryVfVqzw&quot;&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="277" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;115-JMdx+og792e7wTdARPtR6hyDFO8&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 24 May 2024 17:29:08 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="2e8c2a58-69c4-41c4-9693-7a414c5633f1" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;ok&quot;:true,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbiI6eyJfaWQiOiI2NjUwYzk4OGEzNzRjOTdjZDk2M2EzYWIiLCJ1c3VhcmlvIjoiQ3Jpc3RpYW4iLCJwYXNzd29yZCI6Imd1ZXN0MTIzNCIsIl9fdiI6MH0sImlhdCI6MTcxNjU3MTc0OCwiZXhwIjoxNzE2NTc4OTQ4fQ.HJ36P_SSM1SYBjt5Pw_NzIoXAYvb1OvJwr7ryVfVqzw&quot;}" />
+              <option name="size" value="277" />
+              <option name="time" value="30" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1716571763476" />
+          <option name="id" value="c19b0889-e30e-4d7e-804f-a350d37c34ec" />
+          <option name="request">
+            <requestState>
+              <option name="auth">
+                <authState>
+                  <option name="type" value="BEARER" />
+                </authState>
+              </option>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;usuario&quot;: &quot;Christian&quot;,&#10;  &quot;password&quot;: &quot;guest1234&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="9f7c8c88-9b1e-4bbb-b708-59dcee0e4955" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="http://localhost:8080/login" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJvayI6ZmFsc2UsImVycm9yIjoiVXN1YXJpbyBvIGNvbnRyYXNlw7FhIGluY29ycmVjdG9zIn0=" />
+              <option name="bodyString" value="{&#10;  &quot;ok&quot;: false,&#10;  &quot;error&quot;: &quot;Usuario o contraseña incorrectos&quot;&#10;}" />
+              <option name="code" value="400" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="56" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;38-GDibTeMXIB+s8IeS2IOqf3ZzaHE&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 24 May 2024 17:29:23 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="c19b0889-e30e-4d7e-804f-a350d37c34ec" />
+              <option name="message" value="Bad Request" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;ok&quot;:false,&quot;error&quot;:&quot;Usuario o contraseña incorrectos&quot;}" />
+              <option name="size" value="56" />
+              <option name="time" value="7" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1716588345353" />
+          <option name="id" value="f2a7c4e1-8cf1-47c1-89e1-6b2088a2357f" />
+          <option name="request">
+            <requestState>
+              <option name="auth">
+                <authState>
+                  <option name="type" value="BEARER" />
+                </authState>
+              </option>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;usuario&quot;: &quot;Cristian&quot;,&#10;  &quot;password&quot;: &quot;guest1234&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="9f7c8c88-9b1e-4bbb-b708-59dcee0e4955" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="http://localhost:8080/login" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJvayI6ZmFsc2UsImVycm9yIjoiVXN1YXJpbyBvIGNvbnRyYXNlw7FhIGluY29ycmVjdG9zIn0=" />
+              <option name="bodyString" value="{&#10;  &quot;ok&quot;: false,&#10;  &quot;error&quot;: &quot;Usuario o contraseña incorrectos&quot;&#10;}" />
+              <option name="code" value="400" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="56" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;38-GDibTeMXIB+s8IeS2IOqf3ZzaHE&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 24 May 2024 22:05:45 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="f2a7c4e1-8cf1-47c1-89e1-6b2088a2357f" />
+              <option name="message" value="Bad Request" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;ok&quot;:false,&quot;error&quot;:&quot;Usuario o contraseña incorrectos&quot;}" />
+              <option name="size" value="56" />
+              <option name="time" value="15" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1716588359544" />
+          <option name="id" value="4cc7e9d2-3b62-4d8a-bc4f-e33b1303608c" />
+          <option name="request">
+            <requestState>
+              <option name="auth">
+                <authState>
+                  <option name="type" value="BEARER" />
+                </authState>
+              </option>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;usuario&quot;: &quot;Cristian&quot;,&#10;  &quot;password&quot;: &quot;guest1234&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="9f7c8c88-9b1e-4bbb-b708-59dcee0e4955" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="http://localhost:8080/usuarios" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJvayI6dHJ1ZSwicmVzdWx0YWRvIjp7InVzdWFyaW8iOiJDcmlzdGlhbiIsInBhc3N3b3JkIjoiZ3Vlc3QxMjM0IiwiX2lkIjoiNjY1MTBmNDdhZmRhZDY3ZDA2MDM1NDI3IiwiX192IjowfX0=" />
+              <option name="bodyString" value="{&#10;  &quot;ok&quot;: true,&#10;  &quot;resultado&quot;: {&#10;    &quot;usuario&quot;: &quot;Cristian&quot;,&#10;    &quot;password&quot;: &quot;guest1234&quot;,&#10;    &quot;_id&quot;: &quot;66510f47afdad67d06035427&quot;,&#10;    &quot;__v&quot;: 0&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="110" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;6e-SITvx8w4MK+Gb7X7QLqiue/8uDI&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 24 May 2024 22:05:59 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="4cc7e9d2-3b62-4d8a-bc4f-e33b1303608c" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;ok&quot;:true,&quot;resultado&quot;:{&quot;usuario&quot;:&quot;Cristian&quot;,&quot;password&quot;:&quot;guest1234&quot;,&quot;_id&quot;:&quot;66510f47afdad67d06035427&quot;,&quot;__v&quot;:0}}" />
+              <option name="size" value="110" />
+              <option name="time" value="7" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1716588379578" />
+          <option name="id" value="e8339255-ae94-48b8-8b5c-3d4808d8dd35" />
+          <option name="request">
+            <requestState>
+              <option name="auth">
+                <authState>
+                  <option name="type" value="BEARER" />
+                </authState>
+              </option>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;usuario&quot;: &quot;Cristian&quot;,&#10;  &quot;password&quot;: &quot;guest1234&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="9f7c8c88-9b1e-4bbb-b708-59dcee0e4955" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="http://localhost:8080/login" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJvayI6dHJ1ZSwidG9rZW4iOiJleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKc2IyZHBiaUk2ZXlKZmFXUWlPaUkyTmpVeE1HWTBOMkZtWkdGa05qZGtNRFl3TXpVME1qY2lMQ0oxYzNWaGNtbHZJam9pUTNKcGMzUnBZVzRpTENKd1lYTnpkMjl5WkNJNkltZDFaWE4wTVRJek5DSXNJbDlmZGlJNk1IMHNJbWxoZENJNk1UY3hOalU0T0RNM09Td2laWGh3SWpveE56RTJOVGsxTlRjNWZRLkxYbS1odFdoMGVPcXJ4dVZISFIwTjZTNkhxdVhINmdTSW9iTlJ4V1llMVEifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;ok&quot;: true,&#10;  &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbiI6eyJfaWQiOiI2NjUxMGY0N2FmZGFkNjdkMDYwMzU0MjciLCJ1c3VhcmlvIjoiQ3Jpc3RpYW4iLCJwYXNzd29yZCI6Imd1ZXN0MTIzNCIsIl9fdiI6MH0sImlhdCI6MTcxNjU4ODM3OSwiZXhwIjoxNzE2NTk1NTc5fQ.LXm-htWh0eOqrxuVHHR0N6S6HquXH6gSIobNRxWYe1Q&quot;&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="277" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;115-AgS9uduLbPSzS0Q0GCHwqwdX1YM&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 24 May 2024 22:06:19 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="e8339255-ae94-48b8-8b5c-3d4808d8dd35" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;ok&quot;:true,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbiI6eyJfaWQiOiI2NjUxMGY0N2FmZGFkNjdkMDYwMzU0MjciLCJ1c3VhcmlvIjoiQ3Jpc3RpYW4iLCJwYXNzd29yZCI6Imd1ZXN0MTIzNCIsIl9fdiI6MH0sImlhdCI6MTcxNjU4ODM3OSwiZXhwIjoxNzE2NTk1NTc5fQ.LXm-htWh0eOqrxuVHHR0N6S6HquXH6gSIobNRxWYe1Q&quot;}" />
+              <option name="size" value="277" />
+              <option name="time" value="7" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+      </list>
+    </option>
+  </component>
+</project>
