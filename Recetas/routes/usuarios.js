@@ -1,5 +1,5 @@
 const express = require('express');
-let Usuario = require(__dirname + '/../models/Usuario');
+let Usuario = require(__dirname + '/../models/usuario');
 const router = express.Router();
 
 router.get('/', (req, res) => {

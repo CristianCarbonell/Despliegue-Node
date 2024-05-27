@@ -1,6 +1,6 @@
 const express = require('express');
 const auth = require(__dirname + '/../auth/auth');
-let Usuario = require(__dirname + '/../models/Usuario');
+let Usuario = require(__dirname + '/../models/usuario');
 
 let router = express.Router();
 

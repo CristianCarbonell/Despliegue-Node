@@ -34,7 +34,7 @@
               <option name="method" value="GET" />
               <option name="name" value="Draft" />
               <option name="sortWeight" value="1000000" />
-              <option name="url" value="http://localhost:8080/usuarios" />
+              <option name="url" value="http://localhost:8080/recetas/663e7eaa9a71eafd0d07258b" />
             </requestState>
           </list>
         </option>

@@ -4,164 +4,6 @@
     <option name="requestHistoryStates">
       <list>
         <requestHistoryState>
-          <option name="dateTime" value="1716570504888" />
-          <option name="id" value="91b94958-d5c8-4ad2-9efd-65a70383796b" />
-          <option name="request">
-            <requestState>
-              <option name="auth">
-                <authState>
-                  <option name="type" value="BEARER" />
-                </authState>
-              </option>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;usuario&quot;: &quot;Cristian&quot;,&#10;  &quot;password&quot;: &quot;guest1234&quot;&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="9f7c8c88-9b1e-4bbb-b708-59dcee0e4955" />
-              <option name="method" value="POST" />
-              <option name="name" value="Draft" />
-              <option name="sortWeight" value="1000000" />
-              <option name="url" value="http://localhost:8080/usuarios" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJvayI6dHJ1ZSwicmVzdWx0YWRvIjp7InVzdWFyaW8iOiJDcmlzdGlhbiIsInBhc3N3b3JkIjoiZ3Vlc3QxMjM0IiwiX2lkIjoiNjY1MGM5ODhhMzc0Yzk3Y2Q5NjNhM2FiIiwiX192IjowfX0=" />
-              <option name="bodyString" value="{&#10;  &quot;ok&quot;: true,&#10;  &quot;resultado&quot;: {&#10;    &quot;usuario&quot;: &quot;Cristian&quot;,&#10;    &quot;password&quot;: &quot;guest1234&quot;,&#10;    &quot;_id&quot;: &quot;6650c988a374c97cd963a3ab&quot;,&#10;    &quot;__v&quot;: 0&#10;  }&#10;}" />
-              <option name="code" value="200" />
-              <option name="contentType" value="application/json; charset=utf-8" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="X-Powered-By" />
-                    <option name="value" value="Express" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json; charset=utf-8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="110" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="ETag" />
-                    <option name="value" value="W/&quot;6e-n5a0jmIz/AqIfZN5EXAbRDpLNRc&quot;" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Fri, 24 May 2024 17:08:24 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=5" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="91b94958-d5c8-4ad2-9efd-65a70383796b" />
-              <option name="message" value="OK" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;ok&quot;:true,&quot;resultado&quot;:{&quot;usuario&quot;:&quot;Cristian&quot;,&quot;password&quot;:&quot;guest1234&quot;,&quot;_id&quot;:&quot;6650c988a374c97cd963a3ab&quot;,&quot;__v&quot;:0}}" />
-              <option name="size" value="110" />
-              <option name="time" value="63" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1716571732061" />
-          <option name="id" value="96d76c5d-7b8f-4462-9c60-fd032250ec98" />
-          <option name="request">
-            <requestState>
-              <option name="auth">
-                <authState>
-                  <option name="type" value="BEARER" />
-                </authState>
-              </option>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;usuario&quot;: &quot;Cristian&quot;,&#10;  &quot;password&quot;: &quot;guest1234&quot;&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="9f7c8c88-9b1e-4bbb-b708-59dcee0e4955" />
-              <option name="method" value="POST" />
-              <option name="name" value="Draft" />
-              <option name="sortWeight" value="1000000" />
-              <option name="url" value="http://localhost:8080/login" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJvayI6dHJ1ZSwidG9rZW4iOiJleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKc2IyZHBiaUk2ZXlKZmFXUWlPaUkyTmpVd1l6azRPR0V6TnpSak9UZGpaRGsyTTJFellXSWlMQ0oxYzNWaGNtbHZJam9pUTNKcGMzUnBZVzRpTENKd1lYTnpkMjl5WkNJNkltZDFaWE4wTVRJek5DSXNJbDlmZGlJNk1IMHNJbWxoZENJNk1UY3hOalUzTVRjek1pd2laWGh3SWpveE56RTJOVGM0T1RNeWZRLnJnZFdVQU9qNXQ2cGptZWd1QndlenpEUjhBa1R5TnlqaDYtUHNVc2tKQkEifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;ok&quot;: true,&#10;  &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbiI6eyJfaWQiOiI2NjUwYzk4OGEzNzRjOTdjZDk2M2EzYWIiLCJ1c3VhcmlvIjoiQ3Jpc3RpYW4iLCJwYXNzd29yZCI6Imd1ZXN0MTIzNCIsIl9fdiI6MH0sImlhdCI6MTcxNjU3MTczMiwiZXhwIjoxNzE2NTc4OTMyfQ.rgdWUAOj5t6pjmeguBwezzDR8AkTyNyjh6-PsUskJBA&quot;&#10;}" />
-              <option name="code" value="200" />
-              <option name="contentType" value="application/json; charset=utf-8" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="X-Powered-By" />
-                    <option name="value" value="Express" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json; charset=utf-8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="277" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="ETag" />
-                    <option name="value" value="W/&quot;115-gwypOp4yGFjCmPsi9DSTPjs1Sak&quot;" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Fri, 24 May 2024 17:28:52 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=5" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="96d76c5d-7b8f-4462-9c60-fd032250ec98" />
-              <option name="message" value="OK" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;ok&quot;:true,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbiI6eyJfaWQiOiI2NjUwYzk4OGEzNzRjOTdjZDk2M2EzYWIiLCJ1c3VhcmlvIjoiQ3Jpc3RpYW4iLCJwYXNzd29yZCI6Imd1ZXN0MTIzNCIsIl9fdiI6MH0sImlhdCI6MTcxNjU3MTczMiwiZXhwIjoxNzE2NTc4OTMyfQ.rgdWUAOj5t6pjmeguBwezzDR8AkTyNyjh6-PsUskJBA&quot;}" />
-              <option name="size" value="277" />
-              <option name="time" value="76" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
           <option name="dateTime" value="1716571748370" />
           <option name="id" value="2e8c2a58-69c4-41c4-9693-7a414c5633f1" />
           <option name="request">
@@ -1367,6 +1209,426 @@
               <option name="rawBodyString" value="{&quot;ok&quot;:true,&quot;resultado&quot;:[{&quot;_id&quot;:&quot;6652678adbcd370845ac9fc5&quot;,&quot;usuario&quot;:&quot;Cristian&quot;,&quot;password&quot;:&quot;guest1234&quot;,&quot;__v&quot;:0}]}" />
               <option name="size" value="112" />
               <option name="time" value="3" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1716805003984" />
+          <option name="id" value="d6b0f9de-133a-473d-9c2c-74b826faf474" />
+          <option name="request">
+            <requestState>
+              <option name="auth">
+                <authState>
+                  <option name="bearer">
+                    <kp>
+                      <option name="token" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbiI6eyJfaWQiOiI2NjUyNjc4YWRiY2QzNzA4NDVhYzlmYzUiLCJ1c3VhcmlvIjoiQ3Jpc3RpYW4iLCJwYXNzd29yZCI6Imd1ZXN0MTIzNCIsIl9fdiI6MH0sImlhdCI6MTcxNjY3NjUwOCwiZXhwIjoxNzE2NjgzNzA4fQ.iyxa-cSE4KRqKeinaa1rIivsL81im2vfSMJUS-GFeB8" />
+                    </kp>
+                  </option>
+                  <option name="type" value="BEARER" />
+                </authState>
+              </option>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;titulo&quot;: &quot;Huevos fritos con jamón&quot;,&#10;  &quot;comensales&quot;: 2,&#10;  &quot;preparacion&quot;: 20,&#10;  &quot;coccion&quot;: 10,&#10;  &quot;descripcion&quot;: &quot;Unos simples huevos fritos con jamón&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="9f7c8c88-9b1e-4bbb-b708-59dcee0e4955" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="http://localhost:8080/usuarios" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJvayI6ZmFsc2UsImVycm9yIjoiRXJyb3Igb2J0ZW5pZW5kbyB1c3VhcmlvcyJ9" />
+              <option name="bodyString" value="{&#10;  &quot;ok&quot;: false,&#10;  &quot;error&quot;: &quot;Error obteniendo usuarios&quot;&#10;}" />
+              <option name="code" value="400" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="48" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;30-V+J0UPB4vWYhCfJ0XEpOUJWapSM&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 27 May 2024 10:16:43 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="d6b0f9de-133a-473d-9c2c-74b826faf474" />
+              <option name="message" value="Bad Request" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;ok&quot;:false,&quot;error&quot;:&quot;Error obteniendo usuarios&quot;}" />
+              <option name="size" value="48" />
+              <option name="time" value="10020" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1716805052110" />
+          <option name="id" value="ddc7157b-5706-4168-b9be-2b048364d10e" />
+          <option name="request">
+            <requestState>
+              <option name="auth">
+                <authState>
+                  <option name="bearer">
+                    <kp>
+                      <option name="token" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbiI6eyJfaWQiOiI2NjUyNjc4YWRiY2QzNzA4NDVhYzlmYzUiLCJ1c3VhcmlvIjoiQ3Jpc3RpYW4iLCJwYXNzd29yZCI6Imd1ZXN0MTIzNCIsIl9fdiI6MH0sImlhdCI6MTcxNjY3NjUwOCwiZXhwIjoxNzE2NjgzNzA4fQ.iyxa-cSE4KRqKeinaa1rIivsL81im2vfSMJUS-GFeB8" />
+                    </kp>
+                  </option>
+                  <option name="type" value="BEARER" />
+                </authState>
+              </option>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;titulo&quot;: &quot;Huevos fritos con jamón&quot;,&#10;  &quot;comensales&quot;: 2,&#10;  &quot;preparacion&quot;: 20,&#10;  &quot;coccion&quot;: 10,&#10;  &quot;descripcion&quot;: &quot;Unos simples huevos fritos con jamón&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="9f7c8c88-9b1e-4bbb-b708-59dcee0e4955" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="http://localhost:8080/recetas" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJvayI6ZmFsc2UsImVycm9yIjoiRXJyb3Igb2J0ZW5pZW5kbyByZWNldGFzIn0=" />
+              <option name="bodyString" value="{&#10;  &quot;ok&quot;: false,&#10;  &quot;error&quot;: &quot;Error obteniendo recetas&quot;&#10;}" />
+              <option name="code" value="500" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="47" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;2f-ff5pV9O1uWs4qfl9+FId5t7rlxc&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 27 May 2024 10:17:32 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="ddc7157b-5706-4168-b9be-2b048364d10e" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;ok&quot;:false,&quot;error&quot;:&quot;Error obteniendo recetas&quot;}" />
+              <option name="size" value="47" />
+              <option name="time" value="10006" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1716805077015" />
+          <option name="id" value="dd229f49-efc7-40e0-89c0-9c407360dd52" />
+          <option name="request">
+            <requestState>
+              <option name="auth">
+                <authState>
+                  <option name="bearer">
+                    <kp>
+                      <option name="token" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbiI6eyJfaWQiOiI2NjUyNjc4YWRiY2QzNzA4NDVhYzlmYzUiLCJ1c3VhcmlvIjoiQ3Jpc3RpYW4iLCJwYXNzd29yZCI6Imd1ZXN0MTIzNCIsIl9fdiI6MH0sImlhdCI6MTcxNjY3NjUwOCwiZXhwIjoxNzE2NjgzNzA4fQ.iyxa-cSE4KRqKeinaa1rIivsL81im2vfSMJUS-GFeB8" />
+                    </kp>
+                  </option>
+                  <option name="type" value="BEARER" />
+                </authState>
+              </option>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;titulo&quot;: &quot;Huevos fritos con jamón&quot;,&#10;  &quot;comensales&quot;: 2,&#10;  &quot;preparacion&quot;: 20,&#10;  &quot;coccion&quot;: 10,&#10;  &quot;descripcion&quot;: &quot;Unos simples huevos fritos con jamón&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="9f7c8c88-9b1e-4bbb-b708-59dcee0e4955" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="http://localhost:8080/recetas" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJvayI6dHJ1ZSwicmVzdWx0YWRvIjpbeyJfaWQiOiI2NjNlN2VhYTlhNzFlYWZkMGQwNzI1OGIiLCJ0aXR1bG8iOiJUb3N0YWRhIGNvbiBhZ3VhY2F0ZSIsImNvbWVuc2FsZXMiOjEsInByZXBhcmFjaW9uIjo1LCJjb2NjaW9uIjowLCJkZXNjcmlwY2lvbiI6IlVuYSB0b3N0YWRhIHNlbmNpbGxhIGNvbiBhZ3VhY2F0ZS4iLCJpbmdyZWRpZW50ZXMiOlt7Im5vbWJyZSI6IlJlYmFuYWRhIGRlIHBhbiIsImNhbnRpZGFkIjoxLCJ1bmlkYWQiOiJ1bmlkYWRlcyIsIl9pZCI6IjY2M2U3ZWFhOWE3MWVhZmQwZDA3MjU4YyJ9LHsibm9tYnJlIjoiQWd1YWNhdGUiLCJjYW50aWRhZCI6MSwidW5pZGFkIjoidW5pZGFkZXMiLCJfaWQiOiI2NjNlN2VhYTlhNzFlYWZkMGQwNzI1OGQifV0sIl9fdiI6MH0seyJfaWQiOiI2NjNlN2VmNTlhNzFlYWZkMGQwNzI1OTgiLCJ0aXR1bG8iOiJUb3J0aWxsYSBkZSBQYXRhdGFzIiwiY29tZW5zYWxlcyI6MiwicHJlcGFyYWNpb24iOjEwLCJjb2NjaW9uIjoyMCwiZGVzY3JpcGNpb24iOiJVbmEgc2VuY2lsbGEgeSBkZWxpY2lvc2EgdG9ydGlsbGEgZGUgcGF0YXRhcy4iLCJpbmdyZWRpZW50ZXMiOltdLCJfX3YiOjB9XX0=" />
+              <option name="bodyString" value="{&#10;  &quot;ok&quot;: true,&#10;  &quot;resultado&quot;: [&#10;    {&#10;      &quot;_id&quot;: &quot;663e7eaa9a71eafd0d07258b&quot;,&#10;      &quot;titulo&quot;: &quot;Tostada con aguacate&quot;,&#10;      &quot;comensales&quot;: 1,&#10;      &quot;preparacion&quot;: 5,&#10;      &quot;coccion&quot;: 0,&#10;      &quot;descripcion&quot;: &quot;Una tostada sencilla con aguacate.&quot;,&#10;      &quot;ingredientes&quot;: [&#10;        {&#10;          &quot;nombre&quot;: &quot;Rebanada de pan&quot;,&#10;          &quot;cantidad&quot;: 1,&#10;          &quot;unidad&quot;: &quot;unidades&quot;,&#10;          &quot;_id&quot;: &quot;663e7eaa9a71eafd0d07258c&quot;&#10;        },&#10;        {&#10;          &quot;nombre&quot;: &quot;Aguacate&quot;,&#10;          &quot;cantidad&quot;: 1,&#10;          &quot;unidad&quot;: &quot;unidades&quot;,&#10;          &quot;_id&quot;: &quot;663e7eaa9a71eafd0d07258d&quot;&#10;        }&#10;      ],&#10;      &quot;__v&quot;: 0&#10;    },&#10;    {&#10;      &quot;_id&quot;: &quot;663e7ef59a71eafd0d072598&quot;,&#10;      &quot;titulo&quot;: &quot;Tortilla de Patatas&quot;,&#10;      &quot;comensales&quot;: 2,&#10;      &quot;preparacion&quot;: 10,&#10;      &quot;coccion&quot;: 20,&#10;      &quot;descripcion&quot;: &quot;Una sencilla y deliciosa tortilla de patatas.&quot;,&#10;      &quot;ingredientes&quot;: [],&#10;      &quot;__v&quot;: 0&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="593" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;251-HdKsseCYAMACdzmhlvvFARhcVds&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 27 May 2024 10:17:57 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="dd229f49-efc7-40e0-89c0-9c407360dd52" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;ok&quot;:true,&quot;resultado&quot;:[{&quot;_id&quot;:&quot;663e7eaa9a71eafd0d07258b&quot;,&quot;titulo&quot;:&quot;Tostada con aguacate&quot;,&quot;comensales&quot;:1,&quot;preparacion&quot;:5,&quot;coccion&quot;:0,&quot;descripcion&quot;:&quot;Una tostada sencilla con aguacate.&quot;,&quot;ingredientes&quot;:[{&quot;nombre&quot;:&quot;Rebanada de pan&quot;,&quot;cantidad&quot;:1,&quot;unidad&quot;:&quot;unidades&quot;,&quot;_id&quot;:&quot;663e7eaa9a71eafd0d07258c&quot;},{&quot;nombre&quot;:&quot;Aguacate&quot;,&quot;cantidad&quot;:1,&quot;unidad&quot;:&quot;unidades&quot;,&quot;_id&quot;:&quot;663e7eaa9a71eafd0d07258d&quot;}],&quot;__v&quot;:0},{&quot;_id&quot;:&quot;663e7ef59a71eafd0d072598&quot;,&quot;titulo&quot;:&quot;Tortilla de Patatas&quot;,&quot;comensales&quot;:2,&quot;preparacion&quot;:10,&quot;coccion&quot;:20,&quot;descripcion&quot;:&quot;Una sencilla y deliciosa tortilla de patatas.&quot;,&quot;ingredientes&quot;:[],&quot;__v&quot;:0}]}" />
+              <option name="size" value="593" />
+              <option name="time" value="15" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1716805136192" />
+          <option name="id" value="3add36fd-2e4d-4611-8751-a1227c291a91" />
+          <option name="request">
+            <requestState>
+              <option name="auth">
+                <authState>
+                  <option name="bearer">
+                    <kp>
+                      <option name="token" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbiI6eyJfaWQiOiI2NjUyNjc4YWRiY2QzNzA4NDVhYzlmYzUiLCJ1c3VhcmlvIjoiQ3Jpc3RpYW4iLCJwYXNzd29yZCI6Imd1ZXN0MTIzNCIsIl9fdiI6MH0sImlhdCI6MTcxNjY3NjUwOCwiZXhwIjoxNzE2NjgzNzA4fQ.iyxa-cSE4KRqKeinaa1rIivsL81im2vfSMJUS-GFeB8" />
+                    </kp>
+                  </option>
+                  <option name="type" value="BEARER" />
+                </authState>
+              </option>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;titulo&quot;: &quot;Huevos fritos con jamón&quot;,&#10;  &quot;comensales&quot;: 2,&#10;  &quot;preparacion&quot;: 20,&#10;  &quot;coccion&quot;: 10,&#10;  &quot;descripcion&quot;: &quot;Unos simples huevos fritos con jamón&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="9f7c8c88-9b1e-4bbb-b708-59dcee0e4955" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="http://localhost:8080/usuarios" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJvayI6dHJ1ZSwicmVzdWx0YWRvIjpbeyJfaWQiOiI2NjUxMGY0N2FmZGFkNjdkMDYwMzU0MjciLCJ1c3VhcmlvIjoiQ3Jpc3RpYW4iLCJwYXNzd29yZCI6Imd1ZXN0MTIzNCIsIl9fdiI6MH1dfQ==" />
+              <option name="bodyString" value="{&#10;  &quot;ok&quot;: true,&#10;  &quot;resultado&quot;: [&#10;    {&#10;      &quot;_id&quot;: &quot;66510f47afdad67d06035427&quot;,&#10;      &quot;usuario&quot;: &quot;Cristian&quot;,&#10;      &quot;password&quot;: &quot;guest1234&quot;,&#10;      &quot;__v&quot;: 0&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="112" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;70-aMF0FV3RaR+PTb6vzilGkZWfKJA&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 27 May 2024 10:18:56 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="3add36fd-2e4d-4611-8751-a1227c291a91" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;ok&quot;:true,&quot;resultado&quot;:[{&quot;_id&quot;:&quot;66510f47afdad67d06035427&quot;,&quot;usuario&quot;:&quot;Cristian&quot;,&quot;password&quot;:&quot;guest1234&quot;,&quot;__v&quot;:0}]}" />
+              <option name="size" value="112" />
+              <option name="time" value="3" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1716805156550" />
+          <option name="id" value="e5fbbba3-1dd0-4398-8df0-98d8fd21f72b" />
+          <option name="request">
+            <requestState>
+              <option name="auth">
+                <authState>
+                  <option name="bearer">
+                    <kp>
+                      <option name="token" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbiI6eyJfaWQiOiI2NjUyNjc4YWRiY2QzNzA4NDVhYzlmYzUiLCJ1c3VhcmlvIjoiQ3Jpc3RpYW4iLCJwYXNzd29yZCI6Imd1ZXN0MTIzNCIsIl9fdiI6MH0sImlhdCI6MTcxNjY3NjUwOCwiZXhwIjoxNzE2NjgzNzA4fQ.iyxa-cSE4KRqKeinaa1rIivsL81im2vfSMJUS-GFeB8" />
+                    </kp>
+                  </option>
+                  <option name="type" value="BEARER" />
+                </authState>
+              </option>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;titulo&quot;: &quot;Huevos fritos con jamón&quot;,&#10;  &quot;comensales&quot;: 2,&#10;  &quot;preparacion&quot;: 20,&#10;  &quot;coccion&quot;: 10,&#10;  &quot;descripcion&quot;: &quot;Unos simples huevos fritos con jamón&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="9f7c8c88-9b1e-4bbb-b708-59dcee0e4955" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="sortWeight" value="1000000" />
+              <option name="url" value="http://localhost:8080/recetas/663e7eaa9a71eafd0d07258b" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJvayI6dHJ1ZSwicmVzdWx0YWRvIjp7Il9pZCI6IjY2M2U3ZWFhOWE3MWVhZmQwZDA3MjU4YiIsInRpdHVsbyI6IlRvc3RhZGEgY29uIGFndWFjYXRlIiwiY29tZW5zYWxlcyI6MSwicHJlcGFyYWNpb24iOjUsImNvY2Npb24iOjAsImRlc2NyaXBjaW9uIjoiVW5hIHRvc3RhZGEgc2VuY2lsbGEgY29uIGFndWFjYXRlLiIsImluZ3JlZGllbnRlcyI6W3sibm9tYnJlIjoiUmViYW5hZGEgZGUgcGFuIiwiY2FudGlkYWQiOjEsInVuaWRhZCI6InVuaWRhZGVzIiwiX2lkIjoiNjYzZTdlYWE5YTcxZWFmZDBkMDcyNThjIn0seyJub21icmUiOiJBZ3VhY2F0ZSIsImNhbnRpZGFkIjoxLCJ1bmlkYWQiOiJ1bmlkYWRlcyIsIl9pZCI6IjY2M2U3ZWFhOWE3MWVhZmQwZDA3MjU4ZCJ9XSwiX192IjowfX0=" />
+              <option name="bodyString" value="{&#10;  &quot;ok&quot;: true,&#10;  &quot;resultado&quot;: {&#10;    &quot;_id&quot;: &quot;663e7eaa9a71eafd0d07258b&quot;,&#10;    &quot;titulo&quot;: &quot;Tostada con aguacate&quot;,&#10;    &quot;comensales&quot;: 1,&#10;    &quot;preparacion&quot;: 5,&#10;    &quot;coccion&quot;: 0,&#10;    &quot;descripcion&quot;: &quot;Una tostada sencilla con aguacate.&quot;,&#10;    &quot;ingredientes&quot;: [&#10;      {&#10;        &quot;nombre&quot;: &quot;Rebanada de pan&quot;,&#10;        &quot;cantidad&quot;: 1,&#10;        &quot;unidad&quot;: &quot;unidades&quot;,&#10;        &quot;_id&quot;: &quot;663e7eaa9a71eafd0d07258c&quot;&#10;      },&#10;      {&#10;        &quot;nombre&quot;: &quot;Aguacate&quot;,&#10;        &quot;cantidad&quot;: 1,&#10;        &quot;unidad&quot;: &quot;unidades&quot;,&#10;        &quot;_id&quot;: &quot;663e7eaa9a71eafd0d07258d&quot;&#10;      }&#10;    ],&#10;    &quot;__v&quot;: 0&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="392" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;188-vTsJxY/7biWA1/xQB2qK84mA0WM&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Mon, 27 May 2024 10:19:16 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="e5fbbba3-1dd0-4398-8df0-98d8fd21f72b" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;ok&quot;:true,&quot;resultado&quot;:{&quot;_id&quot;:&quot;663e7eaa9a71eafd0d07258b&quot;,&quot;titulo&quot;:&quot;Tostada con aguacate&quot;,&quot;comensales&quot;:1,&quot;preparacion&quot;:5,&quot;coccion&quot;:0,&quot;descripcion&quot;:&quot;Una tostada sencilla con aguacate.&quot;,&quot;ingredientes&quot;:[{&quot;nombre&quot;:&quot;Rebanada de pan&quot;,&quot;cantidad&quot;:1,&quot;unidad&quot;:&quot;unidades&quot;,&quot;_id&quot;:&quot;663e7eaa9a71eafd0d07258c&quot;},{&quot;nombre&quot;:&quot;Aguacate&quot;,&quot;cantidad&quot;:1,&quot;unidad&quot;:&quot;unidades&quot;,&quot;_id&quot;:&quot;663e7eaa9a71eafd0d07258d&quot;}],&quot;__v&quot;:0}}" />
+              <option name="size" value="392" />
+              <option name="time" value="8" />
             </responseState>
           </option>
           <option name="workspaceId" value="drafts" />
