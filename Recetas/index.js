@@ -22,6 +22,10 @@ app.use('/recetas', recetas);
 app.use('/', auth);
 app.use('/usuarios',usuarios);
 
+app.get('/', (req, res) => {
+    res.redirect('/recetas');
+});
+
 app.listen(8080, () => {
     console.log("El servidor está corriendo en el puerto 8080");
 });

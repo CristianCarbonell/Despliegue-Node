@@ -18,7 +18,7 @@
               </option>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;titulo&quot;: &quot;Huevos fritos con jamón&quot;,&#10;  &quot;comensales&quot;: 2,&#10;  &quot;preparacion&quot;: 20,&#10;  &quot;coccion&quot;: 10,&#10;  &quot;descripcion&quot;: &quot;Unos simples huevos fritos con jamón&quot;&#10;}" />
+                  <option name="raw" value="{&#10;  &quot;usuario&quot;: &quot;Crispis&quot;,&#10;  &quot;password&quot;: &quot;guest1234&quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
@@ -31,10 +31,10 @@
                 </list>
               </option>
               <option name="id" value="9f7c8c88-9b1e-4bbb-b708-59dcee0e4955" />
-              <option name="method" value="GET" />
+              <option name="method" value="POST" />
               <option name="name" value="Draft" />
               <option name="sortWeight" value="1000000" />
-              <option name="url" value="http://localhost:8080/usuarios" />
+              <option name="url" value="http://vps-4d0114ee.vps.ovh.net:8040/usuarios" />
             </requestState>
           </list>
         </option>
