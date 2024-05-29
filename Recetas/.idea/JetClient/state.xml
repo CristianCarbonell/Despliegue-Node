@@ -18,7 +18,7 @@
               </option>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;usuario&quot;: &quot;Crispis&quot;,&#10;  &quot;password&quot;: &quot;guest1234&quot;&#10;}" />
+                  <option name="raw" value="{&#10;  &quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
@@ -34,7 +34,7 @@
               <option name="method" value="POST" />
               <option name="name" value="Draft" />
               <option name="sortWeight" value="1000000" />
-              <option name="url" value="http://vps-4d0114ee.vps.ovh.net:8040/usuarios" />
+              <option name="url" value="http://vps-4d0114ee.vps.ovh.net:8040/recetas" />
             </requestState>
           </list>
         </option>

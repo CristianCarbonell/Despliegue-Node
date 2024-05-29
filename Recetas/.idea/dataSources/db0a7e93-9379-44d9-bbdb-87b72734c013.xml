@@ -5,31 +5,31 @@
       <ServerVersion>7.0.3</ServerVersion>
     </root>
     <schema id="2" parent="1" name="admin">
-      <LastIntrospectionLocalTimestamp>2024-05-27.10:40:19</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-05-28.23:11:51</LastIntrospectionLocalTimestamp>
     </schema>
     <schema id="3" parent="1" name="config">
-      <LastIntrospectionLocalTimestamp>2024-05-27.10:40:19</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-05-28.23:11:51</LastIntrospectionLocalTimestamp>
     </schema>
     <schema id="4" parent="1" name="contactos">
-      <LastIntrospectionLocalTimestamp>2024-05-27.10:40:19</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-05-28.23:11:51</LastIntrospectionLocalTimestamp>
     </schema>
     <schema id="5" parent="1" name="hotel">
-      <LastIntrospectionLocalTimestamp>2024-05-27.10:40:19</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-05-28.23:11:51</LastIntrospectionLocalTimestamp>
     </schema>
     <schema id="6" parent="1" name="libros">
-      <LastIntrospectionLocalTimestamp>2024-05-27.10:40:19</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-05-28.23:11:51</LastIntrospectionLocalTimestamp>
     </schema>
     <schema id="7" parent="1" name="local">
-      <LastIntrospectionLocalTimestamp>2024-05-27.10:40:19</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-05-28.23:11:51</LastIntrospectionLocalTimestamp>
     </schema>
     <schema id="8" parent="1" name="recetas">
-      <LastIntrospectionLocalTimestamp>2024-05-27.10:40:19</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-05-28.23:11:51</LastIntrospectionLocalTimestamp>
     </schema>
     <schema id="9" parent="1" name="contactos_subdocumentos">
-      <LastIntrospectionLocalTimestamp>2024-05-27.10:40:19</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-05-28.23:11:51</LastIntrospectionLocalTimestamp>
     </schema>
     <schema id="10" parent="1" name="tareas-nest">
-      <LastIntrospectionLocalTimestamp>2024-05-27.10:40:19</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-05-28.23:11:51</LastIntrospectionLocalTimestamp>
     </schema>
     <table id="11" parent="3" name="system.sessions"/>
     <table id="12" parent="4" name="contactos"/>

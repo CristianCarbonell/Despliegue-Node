@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const secreto = "recetaSecreta";
+const secreto = process.env.SECRETO;
 
 let generarToken = login => jwt.sign({login: login}, secreto, {expiresIn: "2 hours"});
 
