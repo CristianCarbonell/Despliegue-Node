@@ -10,7 +10,7 @@
                 <authState>
                   <option name="bearer">
                     <kp>
-                      <option name="token" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbiI6eyJfaWQiOiI2NjUyNjc4YWRiY2QzNzA4NDVhYzlmYzUiLCJ1c3VhcmlvIjoiQ3Jpc3RpYW4iLCJwYXNzd29yZCI6Imd1ZXN0MTIzNCIsIl9fdiI6MH0sImlhdCI6MTcxNjY3NjUwOCwiZXhwIjoxNzE2NjgzNzA4fQ.iyxa-cSE4KRqKeinaa1rIivsL81im2vfSMJUS-GFeB8" />
+                      <option name="token" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbiI6IlRvbWFzIiwicm9sIjoiYWRtaW4iLCJpYXQiOjE3MTcwODM0MzUsImV4cCI6MTcxNzA5MDYzNX0.lzVtgTPyvC9QdrobdDNipVBtw9uIHM_x7tQod0cDsIE" />
                     </kp>
                   </option>
                   <option name="type" value="BEARER" />
@@ -18,7 +18,7 @@
               </option>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;&#10;}" />
+                  <option name="raw" value="{&#10;  &quot;usuario&quot;: &quot;Prueba&quot;,&#10;  &quot;password&quot;: &quot;prueba&quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
@@ -34,7 +34,7 @@
               <option name="method" value="POST" />
               <option name="name" value="Draft" />
               <option name="sortWeight" value="1000000" />
-              <option name="url" value="http://vps-4d0114ee.vps.ovh.net:8040/recetas" />
+              <option name="url" value="http://localhost:8040/usuarios" />
             </requestState>
           </list>
         </option>

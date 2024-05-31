@@ -39,7 +39,7 @@ router.get('/:id', (req, res) => {
 
 // Servicio para añadir una nueva receta
 
-router.post('/',auth.protegerRuta, (req, res) => {
+router.post('/',auth.protegerRuta('admin'), (req, res) => {
     let nuevaReceta = new Receta({
         titulo: req.body.titulo,
         comensales:req.body.comensales,
@@ -60,7 +60,7 @@ router.post('/',auth.protegerRuta, (req, res) => {
 
 // Servicio para modificar una receta
 
-router.put('/:id',auth.protegerRuta, (req, res) => {
+router.put('/:id',auth.protegerRuta('admin'), (req, res) => {
 
     Receta.findByIdAndUpdate(req.params.id, {
         $set: {
@@ -71,10 +71,15 @@ router.put('/:id',auth.protegerRuta, (req, res) => {
             descripcion:req.body.descripcion,
         }
     }, {new: true}).then(resultado => {
+        if(resultado)
         res.status(200)
            .send({ok: true, resultado: resultado});
+        else
+            res.status(400)
+                .send({ok: false,
+                    error:"No se encontró la receta para actualizar"});
     }).catch(error => {
-        res.status(400)
+        res.status(403)
            .send({ok: false, 
                   error:"Error modificando receta"});
     });
@@ -83,7 +88,7 @@ router.put('/:id',auth.protegerRuta, (req, res) => {
 
 // Servicio para modificar los ingredientes de una receta a partir de su id.
 
-router.post('/elementos/:id', auth.protegerRuta, (req, res) => {
+router.post('/elementos/:id', auth.protegerRuta('admin'), (req, res) => {
     Receta.findByIdAndUpdate(req.params.id, {
         $push: {
             ingredientes: {
@@ -93,23 +98,31 @@ router.post('/elementos/:id', auth.protegerRuta, (req, res) => {
             }
         }
     }, { new: true, runValidators: true }).then(resultado => {
+        if(resultado)
         res.status(200).send({ok: true, resultado: resultado});
+        else
+            res.status(400).send({ok: false, error: "No se encontró la receta para añadir ingredientes"});
     }).catch(error => {
-        res.status(400).send({ok: false, error: "Error modificando los ingredientes de la receta"});
+        res.status(403).send({ok: false, error: "Error modificando los ingredientes de la receta"});
     });
 });
 
 
 // Servicio para borra una receta
 
-router.delete('/:id',auth.protegerRuta, (req, res) => {
+router.delete('/:id',auth.protegerRuta('admin'), (req, res) => {
 
     Receta.findByIdAndDelete(req.params.id)
     .then(resultado => {
+        if(resultado)
         res.status(200)
            .send({ok: true, resultado: resultado});
+        else
+            res.status(400)
+                .send({ok: false,
+                    error:"No se encontró la receta para eliminar"});
     }).catch(error => {
-        res.status(400)
+        res.status(403)
            .send({ok: false, 
                   error:"Error eliminando receta"});
     });

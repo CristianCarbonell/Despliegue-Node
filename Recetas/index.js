@@ -31,7 +31,7 @@ app.get('/', (req, res) => {
 
 app.listen(process.env.PUERTO, () => {
 
-    console.log(`El servidor esta corriendo en el puerto http://vps-4d0114ee.vps.ovh.net:${process.env.PUERTO}`);
+    console.log(`El servidor esta corriendo en el puerto ${process.env.URLSERVER}:${process.env.PUERTO}`);
 });
 
 

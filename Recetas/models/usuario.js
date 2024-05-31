@@ -8,6 +8,10 @@ let usuarioSchema = new mongoose.Schema({
     password:{
         type: String,
         required: true
+    },
+    rol:{
+        type:String,
+        enum:["normal","admin"]
     }
 })
 

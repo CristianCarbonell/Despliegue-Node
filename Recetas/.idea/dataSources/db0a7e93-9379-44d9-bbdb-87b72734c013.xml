@@ -23,7 +23,7 @@
       <LastIntrospectionLocalTimestamp>2024-05-28.23:11:51</LastIntrospectionLocalTimestamp>
     </schema>
     <schema id="8" parent="1" name="recetas">
-      <LastIntrospectionLocalTimestamp>2024-05-28.23:11:51</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-05-30.15:32:34</LastIntrospectionLocalTimestamp>
     </schema>
     <schema id="9" parent="1" name="contactos_subdocumentos">
       <LastIntrospectionLocalTimestamp>2024-05-28.23:11:51</LastIntrospectionLocalTimestamp>
@@ -393,12 +393,12 @@
       <DasType>Int32|4s</DasType>
       <Position>1</Position>
     </column>
-    <column id="112" parent="21" name="coccion">
-      <DasType>Int32|4s</DasType>
-      <Position>2</Position>
-    </column>
-    <column id="113" parent="21" name="titulo">
+    <column id="112" parent="21" name="titulo">
       <DasType>String|12s</DasType>
+      <Position>1</Position>
+    </column>
+    <column id="113" parent="21" name="coccion">
+      <DasType>Int32|4s</DasType>
       <Position>2</Position>
     </column>
     <column id="114" parent="21" name="comensales">
@@ -441,83 +441,87 @@
       <DasType>String|12s</DasType>
       <Position>1</Position>
     </column>
-    <column id="124" parent="22" name="__v">
+    <column id="124" parent="22" name="rol">
+      <DasType>String|12s</DasType>
+      <Position>1</Position>
+    </column>
+    <column id="125" parent="22" name="__v">
       <DasType>Int32|4s</DasType>
       <Position>2</Position>
     </column>
-    <column id="125" parent="23" name="_id">
+    <column id="126" parent="23" name="_id">
       <DasType>ObjectId|12s</DasType>
       <Position>1</Position>
     </column>
-    <column id="126" parent="23" name="__v">
+    <column id="127" parent="23" name="__v">
       <DasType>Int32|4s</DasType>
       <Position>2</Position>
     </column>
-    <column id="127" parent="23" name="edad">
+    <column id="128" parent="23" name="edad">
       <DasType>Int32|4s</DasType>
       <Position>3</Position>
     </column>
-    <column id="128" parent="23" name="mascotas">
+    <column id="129" parent="23" name="mascotas">
       <DasType>list|4999545s</DasType>
       <Position>4</Position>
     </column>
-    <column id="129" parent="23" name="mascotas._id">
+    <column id="130" parent="23" name="mascotas._id">
       <DasType>ObjectId|12s</DasType>
       <Position>5</Position>
     </column>
-    <column id="130" parent="23" name="mascotas.nombre">
+    <column id="131" parent="23" name="mascotas.nombre">
       <DasType>String|12s</DasType>
       <Position>6</Position>
     </column>
-    <column id="131" parent="23" name="mascotas.tipo">
+    <column id="132" parent="23" name="mascotas.tipo">
       <DasType>String|12s</DasType>
       <Position>7</Position>
     </column>
-    <column id="132" parent="23" name="nombre">
+    <column id="133" parent="23" name="nombre">
       <DasType>String|12s</DasType>
       <Position>8</Position>
     </column>
-    <column id="133" parent="23" name="restauranteFavorito">
+    <column id="134" parent="23" name="restauranteFavorito">
       <DasType>Object|4999544s</DasType>
       <Position>9</Position>
     </column>
-    <column id="134" parent="23" name="restauranteFavorito._id">
+    <column id="135" parent="23" name="restauranteFavorito._id">
       <DasType>ObjectId|12s</DasType>
       <Position>10</Position>
     </column>
-    <column id="135" parent="23" name="restauranteFavorito.direccion">
+    <column id="136" parent="23" name="restauranteFavorito.direccion">
       <DasType>String|12s</DasType>
       <Position>11</Position>
     </column>
-    <column id="136" parent="23" name="restauranteFavorito.nombre">
+    <column id="137" parent="23" name="restauranteFavorito.nombre">
       <DasType>String|12s</DasType>
       <Position>12</Position>
     </column>
-    <column id="137" parent="23" name="restauranteFavorito.telefono">
+    <column id="138" parent="23" name="restauranteFavorito.telefono">
       <DasType>String|12s</DasType>
       <Position>13</Position>
     </column>
-    <column id="138" parent="23" name="telefono">
+    <column id="139" parent="23" name="telefono">
       <DasType>String|12s</DasType>
       <Position>14</Position>
     </column>
-    <column id="139" parent="24" name="_id">
+    <column id="140" parent="24" name="_id">
       <DasType>ObjectId|12s</DasType>
       <Position>1</Position>
     </column>
-    <column id="140" parent="24" name="__v">
+    <column id="141" parent="24" name="__v">
       <DasType>Int32|4s</DasType>
       <Position>2</Position>
     </column>
-    <column id="141" parent="24" name="fecha">
+    <column id="142" parent="24" name="fecha">
       <DasType>ISODate|91s</DasType>
       <Position>3</Position>
     </column>
-    <column id="142" parent="24" name="nombre">
+    <column id="143" parent="24" name="nombre">
       <DasType>String|12s</DasType>
       <Position>4</Position>
     </column>
-    <column id="143" parent="24" name="prioridad">
+    <column id="144" parent="24" name="prioridad">
       <DasType>Int32|4s</DasType>
       <Position>5</Position>
     </column>

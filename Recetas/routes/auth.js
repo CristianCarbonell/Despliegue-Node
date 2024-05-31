@@ -13,7 +13,7 @@ router.post('/login', (req, res) => {
         .then(usuarioEncontrado =>{
         if(usuarioEncontrado){
             res.status(200)
-                .send({ok: true, token: auth.generarToken(usuarioEncontrado)});
+                .send({ok: true, token: auth.generarToken(usuarioEncontrado.usuario,usuarioEncontrado.rol)});
         } else
             res.status(400)
             .send({ok: false,

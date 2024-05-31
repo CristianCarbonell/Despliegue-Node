@@ -16,7 +16,8 @@ router.get('/', (req, res) => {
 router.post('/',(req,res)=>{
     let nuevoUsuario = new Usuario({
         usuario: req.body.usuario,
-        password: req.body.password
+        password: req.body.password,
+        rol: req.body.rol
     });
     nuevoUsuario.save().then(resultado =>{
         res.status(200)
@@ -35,8 +36,13 @@ router.put('/',(req,res)=>{
         password: req.body.password
     }
     },{new: true}).then(resultado =>{
+        if(resultado)
         res.status(200)
         .send({ok: true, resultado: resultado});
+        else
+            res.status(400)
+                .send({ok: false,
+                    error:"No se encontró el usuario para modificar"})
     }).catch(error => {
         res.status(400)
         .send({ok: false,
@@ -47,8 +53,13 @@ router.put('/',(req,res)=>{
 router.delete('/',(req,res)=>{
     Usuario.findByIdAndDelete(req.params.id)
     .then(resultado =>{
+        if(resultado)
         res.status(200)
         .send({ok: true, resultado: resultado});
+        else
+            res.status(400)
+                .send({ok: false,
+                    error:"No se encontró el usuario para eliminar"});
     }).catch(error => {
         res.status(400)
         .send({ok: false,
